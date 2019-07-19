@@ -58,9 +58,9 @@ function followersCard(followers){
       const userCard = createCard(userData);
       mountPoint.appendChild(userCard);  
   })
-  .catch( err => {
-    console.log('error:', err)
-  })
+    .catch( err => {
+      console.log('error:', err)
+    })
   });
 }
 
